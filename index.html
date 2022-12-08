@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <title>Test Bootstrap</title>
+</head>
+<body class="px-2 py-2"> 
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb border rounded p-2" style="background-color: #E9EDF0;">
+        <li class="breadcrumb-item opacity-100"><a href="#"><strong>Início</strong></strong></a></li>
+        <li class="breadcrumb-item opacity-100"><a href="#">Biblioteca</a></li>
+        <li class="breadcrumb-item active opacity-100" aria-current="page">Breadcrumb</li>
+      </ol>
+    </nav>
+
+    <div class="button_superior_1 d-flex ">
+        <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-primary" type="button">Botão</button>
+            <button type="button" class="btn btn-outline-primary">Borda de Botão</button>
+        </div>
+        <div class="btn-toolbar position-absolute end-0 mx-2" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-light border-primary text-primary">1</button>
+              <button type="button" class="btn btn-primary">2</button>
+              <button type="button" class="btn btn-primary">3</button>
+              <button type="button" class="btn btn-primary">4</button>
+            </div>
+            <div class="btn-group me-2" role="group" aria-label="Second group">
+              <button type="button" class="btn btn-primary">5</button>
+              <button type="button" class="btn btn-primary">6</button>
+              <button type="button" class="btn btn-primary">7</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="Third group">
+              <button type="button" class="btn btn-primary">8</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="d-inline-inline align-bottom">
+        <button type="button" class="btn btn-primary btn-lg">Grande</button>
+        <button type="button" class="btn btn-primary btn-sm w-2 p-1 text-line">Pequeno</button>
+        <button type="button" class="btn btn-link">Texto</button>
+        <div class="dropdown d-inline position-absolute end-0 mx-2">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Botão Dropdown
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    <br>
+    <br>
+    <button type="button" class="btn btn-primary">Primário</button>
+    <button type="button" class="btn btn-secondary">Secundário</button>
+    <button type="button" class="btn btn-info">Informações</button>
+    <button type="button" class="btn btn-danger">Perigo</button>
+    <button type="button" class="btn btn-success">Sucesso</button>
+    <button type="button" class="btn btn-warning">Aviso</button>
+    <button type="button" class="btn btn-light border">Claro</button>
+    <button type="button" class="btn btn-dark">Escuro</button>
+    <br>
+    <br>
+    <br>
+    
+    <div class="mb-5">
+        <div class="row">
+          <div class="col col-8">
+              <nav class="nav border-bottom pb-3">
+                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link disabled">Desabilitado</a>
+              </nav>
+        
+            <ul class="nav nav-tabs mt-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Tab</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tab</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tab</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Desabilitado</a>
+                </li>
+            </ul>
+        
+            <p class="mt-2">Bem-vindo à minha página customizada de bootstrap 4, testando diversos elementos do bootstrap.</p>
+            
+            <nav aria-label="Page navigation example">
+              <ul class="pagination ">
+                <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+              </ul>
+            </nav>
+
+          </div>
+          <div class="col">
+            <div class="list-group">
+              <button type="button" class="list-group-item list-group-item-action active rounded border-light" aria-current="true">
+                Ativo
+              </button>
+              <button type="button" class="list-group-item list-group-item-action border-light text-primary"><a class="nav-link active">Link</a></button>
+              <button type="button" class="list-group-item list-group-item-action border-light text-primary"><a>Link</a></button>
+              <button type="button" class="list-group-item list-group-item-action border-light text-primary"><a>Link</a></button>
+              <button type="button" class="list-group-item list-group-item-action active rounded dropdown dropdown-toggle text-center" aria-current="true">
+                Dropdown
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <p>Um dos elementos mais importantes do Bootstrap é a construção de coluna e linhas.</p>
+  
+    <div class="mx-2 my-2">
+        <div class="row">
+            <div class=" col-6">
+                <p>6</p>
+            </div>
+            <div class="col bg-light col-6 border border-1 rounded my-1">
+                <p">6</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-5">
+                <p>5</p>
+            </div>
+            <div class="col bg-light col-7 border border-1 rounded my-1">
+                <p>7</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-4">
+                <p>4</p>
+            </div>
+            <div class="col bg-light col-8 border border-1 rounded my-1">
+                <p class="">8</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-3">
+                <p>3</p>
+            </div>
+            <div class="col bg-light col-9 border border-1 rounded my-1">
+                <p>9</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-2">
+                <p>2</p>
+            </div>
+            <div class="col bg-light col-10 border border-1 rounded my-1">
+                <p>10</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-1">
+                <p>1</p>
+            </div>
+            <div class="col bg-light col-11 border border-1 rounded my-1">
+                <p>11</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="border my-5 px-4 py-lg-5 rounded" style="background-color: #E9EDF0;">
+        <h1>Olá, mundo!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, tempore quidem dolore cumque reiciendis atque libero, totam mollitia, nemo earum ab maxime rerum accusamus sapiente sint veritatis assumenda maiores eos!Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, tempore quidem dolore cumque reiciendis atque libero, totam mollitia, nemo earum ab maxime rerum accusamus sapiente sint veritatis assumenda maiores eos!Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, tempore quidem dolore cumque reiciendis atque libero, totam mollitia, nemo earum ab maxime rerum accusamus sapiente sint veritatis assumenda maiores eos!</p>
+    </div>
+
+    <div>
+        <div class="row gx-5">
+          <div class="col">
+           <div class="p-3 border border-primary rounded">
+            <h3 class="text-primary">Borda em box</h3>
+            <p>Texto de apoio abaixo como uma entrada para conteúdo adicional.<br>Contém texto que pode passar para a próxima linha.</p>
+            <br>
+            <button type="button" class="btn btn-primary">Botão</button>
+           </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border border-primary rounded ">
+                <ul class="list-group">
+                    <li class="list-group-item active py-2" aria-current="true">Grupo de lista</li>
+                    <li class="list-group-item">Item de lista</li>
+                    <li class="list-group-item">Item de lista 2</li>
+                    <li class="list-group-item disabled">Item de lista 3</li>
+                  </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!---->
+    
+      <div class="border rounded my-5 p-4 bg-primary text-light">
+        <h3>Destaque</h3>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum unde est provident quam ad expedita rerum cumque doloremque in. Quam beatae, at impedit natus quia repudiandae sed quidem optio cum?</p>
+        <br>
+        <button type="button" class="btn btn-primary border-light">Botão</button>
+      </div>
+
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputNome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="inputNome">
+        </div>
+        <div class="col-md-6">
+          <label for="inputSobrbenome" class="form-label">Sobrenome</label>
+          <input type="text" class="form-control" id="inputSobrenome">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Endereço</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Rua">
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
+        </div>
+        <div class="col-md-4">
+          <select id="inputState" class="form-select">
+            <option selected>Estado</option>
+            <option>...</option>
+          </select>
+        </div>
+      </form>
+
+    <form class="d-inline-block w-75 mb-4">
+        <div class="mb-2">
+          <label for="exampleInputUser" class="form-label mt-2">Usuário</label>
+          <input type="email" class="form-control is-invalid" id="exampleInputUser" aria-describedby="userHelp">
+          <div id="validationServerUserFeedback" class="invalid-feedback">Usuário é Obrigatório.</div>
+        </div>
+        <div class="mb-2">
+          <label for="exampleInputPassword1" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="d-grid gap-3 d-md-block mt-3">
+            <button type="button" class="btn btn-outline-secondary">Cancelar</button>
+            <button class="btn btn-primary" type="button">Enviar</button>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Termo de aceite</label>
+            </div>
+        </div> 
+    </form>
+
+    <table class="table border-top">
+        <thead>
+          <tr>
+            <th scope="col">Localização</th>
+            <th scope="col">Data</th>
+            <th scope="col">Visitas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>São Paulo</td>
+            <td>08.05.18 <span class="badge text-bg-primary">label</span></td>
+            <td>2323</td>
+          </tr>
+          <tr>
+            <td>Rio de Janeiro</td>
+            <td>08.05.18 <span class="badge rounded-pill text-bg-primary">label 2</span></td>
+            <td>5362</td>
+          </tr>
+          <tr class="">
+            <td>Minas Gerais</td>
+            <td>08.05.18</td>
+            <td>153</td>
+          </tr>
+        </tbody>
+      </table>
+      <br><br>
+      <div class="progress mb-2">
+        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      </div>
+
+      <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">Toggle offcanvas</button>
+
+    <div class="alert alert-info d-none d-lg-block"><strong>Muito!</strong> Você finalizou o teste
+        <button type="button" class="btn-close position-absolute end-0 me-4" aria-label="Close"></button>
+    </div>
+
+    <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Responsive offcanvas</h5>
+            <button type="button" class="btn-close " data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
