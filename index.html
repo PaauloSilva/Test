@@ -10,8 +10,8 @@
 </head>
 <body class="px-2 py-2"> 
 
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb border rounded p-2" style="background-color: #E9EDF0;">
+    <nav aria-label="breadcrumb" class="bg-primary bg-opacity-10">
+      <ol class="breadcrumb border rounded p-2">
         <li class="breadcrumb-item opacity-100"><a href="#"><strong>Início</strong></strong></a></li>
         <li class="breadcrumb-item opacity-100"><a href="#">Biblioteca</a></li>
         <li class="breadcrumb-item active opacity-100" aria-current="page">Breadcrumb</li>
@@ -135,7 +135,7 @@
             <div class=" col-6">
                 <p>6</p>
             </div>
-            <div class="col bg-light col-6 border border-1 rounded my-1">
+            <div style="background-color: #E9EDF0;" class="col col-6 border border-1 rounded my-1">
                 <p">6</p>
             </div>
         </div>
@@ -187,7 +187,7 @@
 
     </div>
 
-    <div class="border my-5 px-4 py-lg-5 rounded" style="background-color: #E9EDF0;">
+    <div class="border my-5 px-4 py-lg-5 rounded bg-primary bg-opacity-10">
         <h1>Olá, mundo!</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, tempore quidem dolore cumque reiciendis atque libero, totam mollitia, nemo earum ab maxime rerum accusamus sapiente sint veritatis assumenda maiores eos!Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, tempore quidem dolore cumque reiciendis atque libero, totam mollitia, nemo earum ab maxime rerum accusamus sapiente sint veritatis assumenda maiores eos!Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, tempore quidem dolore cumque reiciendis atque libero, totam mollitia, nemo earum ab maxime rerum accusamus sapiente sint veritatis assumenda maiores eos!</p>
     </div>
@@ -228,11 +228,11 @@
     <form class="row g-3">
         <div class="col-md-6">
           <label for="inputNome" class="form-label">Nome</label>
-          <input type="text" class="form-control" id="inputNome">
+          <input type="text" value="Pedro" class="form-control" id="inputNome">
         </div>
         <div class="col-md-6">
           <label for="inputSobrbenome" class="form-label">Sobrenome</label>
-          <input type="text" class="form-control" id="inputSobrenome">
+          <input type="text" value="Pedra" class="form-control" id="inputSobrenome">
         </div>
         <div class="col-12">
           <label for="inputAddress" class="form-label">Endereço</label>
@@ -288,7 +288,7 @@
             <td>08.05.18 <span class="badge rounded-pill text-bg-primary">label 2</span></td>
             <td>5362</td>
           </tr>
-          <tr class="">
+          <tr class="bg-primary bg-opacity-25">
             <td>Minas Gerais</td>
             <td>08.05.18</td>
             <td>153</td>
@@ -304,13 +304,6 @@
 
     <div class="alert alert-info d-none d-lg-block"><strong>Muito!</strong> Você finalizou o teste
         <button type="button" class="btn-close position-absolute end-0 me-4" aria-label="Close"></button>
-    </div>
-
-    <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Responsive offcanvas</h5>
-            <button type="button" class="btn-close " data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
-        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
